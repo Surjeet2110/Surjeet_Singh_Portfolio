@@ -1,16 +1,16 @@
 
 import React from "react";
-import vpn from '../assets/vpn.png'
+import SMS_Spam_Classifier from '../assets/SMS_Spam_Classifier.png'
 import copeople from '../assets/copeople.png'
 import Footer from './Footer'
 
 const ProjectCard = ({ image, title, description, git, technologies }) => {
     return (
         <div className="max-w-sm sm:max-w-sm md:max-w-sm bg-gray-900 border border-neutral-100 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            {title=='Snap Shot' && <a href="#">
-                <img className="w-full rounded-t-lg h-auto object-cover " src={vpn} alt="" />
+            {title==='SMS Spam Classifier' && <a href="#">
+                <img className="w-full rounded-t-lg h-auto object-cover " src={SMS_Spam_Classifier} alt="" />
             </a>}
-            {title=='Co People' && <a href="#">
+            {title==='Co People' && <a href="#">
                 <img className="w-full rounded-t-lg h-auto object-cover " src={copeople} alt="" />
             </a>}
             <div className="p-4 sm:p-6">
@@ -62,16 +62,16 @@ export const project = [
     {
         title:'Co People',
         description:'Co People is a dynamic web application I crafted using React, Node JS and React. This project is a modern and engaging social platform that allows users to connect, share content and interact seamlessly.',
-        image: {vpn},
-        git:'https://github.com/nithingooud/CoPeople',
+        image: {SMS_Spam_Classifier},
+        // git:'https://github.com/nithingooud/CoPeople',
         technologies:['MongoDb' ,'ReactJS' , 'NodeJS']
     },
     {
-        title:'Snap Shot',
-        description:'SnapShot is a stunning portfolio that I exclusively designed using React JS and tailwind CSS.This Project serves as a representation of a photographer’s work, highlighting their portfolio and services.',
+        title:'SMS Spam Classifier',
+        description:'The SMS Spam Classifier is an innovative project I developed using NLP and machine learning. This classifier effectively identifies spam messages with high accuracy, demonstrating advanced data processing and classification techniques.',
         image: {copeople},
-        git:"https://github.com/nithingooud/vpn_studios",
-        technologies:[ 'React JS', 'tailwind CSS']
+        // git:"https://github.com/nithingooud/vpn_studios",
+        technologies:[ 'Python', 'NLP' , 'machine learning']
     }
 ]
 

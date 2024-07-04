@@ -1,8 +1,8 @@
 import React from 'react';
 import { useState, useEffect, useRef } from 'react';
 import { name } from '../constants';
-import { motion } from "framer-motion";
-import Background from './Background';
+// import { motion } from "framer-motion";
+// import Background from './Background';
 import Footer from './Footer';
 
 const Home = () => {
@@ -14,7 +14,7 @@ const Home = () => {
 		const interval = setInterval(() => {
 			if (ref.current < name.length) {
 				ref.current++;
-				setText(() => text + name[ref.current - 1]);
+				setText((Surjeet) => text + name[ref.current - 1]);
 			}
 		}, 500);
 		return () => clearInterval(interval);

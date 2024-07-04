@@ -1,6 +1,4 @@
-
-export const services = [
-    {
+export const services = [{
         title: "Technology Enthusiast",
         icon: 'https://csgeeek.github.io/web.png',
     },
@@ -14,21 +12,22 @@ export const services = [
     },
 ];
 
-export const name = 'Nithin';
+export const name = 'Surjeet';
 
-export const experiences = [
-    {
-        'company': 'Inncircles Technologies',
-        'role': 'Product Developer',
-        'duration': 'April 2023 - Present',
-        'logo': 'https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/e5gz1yggdy8sc1umna3e',
+export const experiences = [{
+        'company': 'WorinWell',
+        'role': 'Web Development Back-end',
+        'duration': 'Aug 2023 - Sep 2023',
+        'logo': 'https://lh5.googleusercontent.com/proxy/ievmKihd137m1-4y74mdAtNqu90xSHcwEgBfSbTT6wVs_yNTXi_PnZ-bbdldqzvLLqn6emhuFnwMTjgBemMtKcH7K8NwEaoXf_Fm2A7nQ1Lejk04_rxdkkH4',
         'points': [
-            'Involved in dynamic contributions to web and mobile📱 development projects, actively influencing and improving project outcomes.',
-            'Developed multiple shared components to simplify tasks for fellow developers, boosting efficiency and teamwork.',
-            'Enhanced product performance through significant contributions to backend development, optimizing essential components for improved efficiency 📈.',
-            'Implemented data security for the company’s product to provide role-based access control ⚙️.'
+            'Developed 2 Projects During Internship: Laravel Task Manager App using REST API and POSTMAN, Laravel BMS.',
+            'Designed Database Schema: Ensured efficient data storage and retrieval, reducing data query times by 30%.',
+            'Developed RESTful APIs: Enabled data interaction, leading to a 25% increase in system performance and a 40% reduction in data retrieval errors.',
+            'Simplified Development Tasks: Created multiple shared components, improving efficiency and teamwork among developers 📈.',
+            'Enhanced Backend Performance: Made significant contributions to backend development, optimizing essential components for improved efficiency.',
+            'Implemented Data Security: Provided role-based access control, ensuring secure data access and enhancing overall product security ⚙️.'
         ],
-        'url': 'https://inncircles.com/#home',
+        'url': 'https://www.1stop.ai/',
     },
     {
         'company': 'AT & T',
