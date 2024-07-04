@@ -38,7 +38,7 @@ const About = () => {
           On a different note, I'm also into photography📸. It's not just a hobby; I see it as a way to capture moments🌟📷, tell stories.</p>
 
           <ButtonLink
-            url='https://docs.google.com/document/d/14H0FDivvmYsD8k9MIAPx4qi-9l4JXS4HrrlmE0gYGE4/edit?usp=sharing'
+            url='https://drive.google.com/file/d/16pQGq1zR9i-KyLeXj4TITdwmOXxF2uRW/view?usp=sharing'
             text='View Resume →'
             padding={`p-3`}
           />
