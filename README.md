@@ -1,7 +1,7 @@
 
 **Cloning an React project and running locally**
 
-### `git clone https://github.com/nithingooud/nithin-portfolio`
+### `git https://github.com/Surjeet2110/Surjeet_Singh_Portfolio`
 ### `cd nithin-portfolio`
 
 **Look at the files and folder of the project**
